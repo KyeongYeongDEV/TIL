@@ -19,9 +19,6 @@ class OwnerController {
 - Spring 이전 개발자들은 객체를 직업 선언/생성하고 메소드를 호출해야 하는 번거로움이 있는 반면,
 Spring 이러한 흐름을 Controller가 담당한다.
 - Spring의 설정대로만 하면 그에 따라 `Bean`을 생성하고 `의존관계`(Dependency Look up)를 통해 `주입`(Dependency Injection)해준다.
-
----
-
 ## 예시
 
 ```java
@@ -163,9 +160,9 @@ Spring MVC를 살펴보면 확인할 수 있다.
 
 ## 결론
 
-Spring이 Interface로 DI를 받아 Low Level 코드를 알아서 시켜준다.
-그래서 우리는 로직에만 집중할 수 있게 도와준다.
-이것이 PSA이다
+Spring이 Interface로 DI를 받아 Low Level 코드를 알아서 시켜준다.   
+그래서 우리는 로직에만 집중할 수 있게 도와준다.   
+이것이 PSA이다   
 
 # Reference
 
